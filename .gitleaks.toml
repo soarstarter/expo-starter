@@ -1,0 +1,9 @@
+# Secret scan settings, used by `pnpm check:lite` and by gitleaks runs in this directory.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "i18n key paths such as legal.privacy.s1Body, which the generic API key rule mistakes for keys"
+targetRules = ["generic-api-key"]
+regexTarget = "secret"
+regexes = ['''^[a-z][a-zA-Z]*(?:\.[a-z][a-zA-Z0-9]*)+$''']

@@ -1,0 +1,404 @@
+{
+  "common": {
+    "signIn": "Sign in",
+    "createAccount": "Create account",
+    "verifyEmail": "Verify email",
+    "resendCode": "Resend code",
+    "done": "Done",
+    "offline": "You're offline. Check your connection.",
+    "retry": "Retry",
+    "loading": "Loading...",
+    "theme": "Theme"
+  },
+  "auth": {
+    "welcomeBack": "Welcome back",
+    "signInSubtitle": "Sign in to continue.",
+    "email": "Email",
+    "password": "Password",
+    "code": "Code",
+    "name": "Name",
+    "phone": "Phone",
+    "confirmPassword": "Confirm password",
+    "emailCode": "Email code",
+    "newHere": "New here?",
+    "alreadyHaveAccount": "Already have one?",
+    "otpHint": "Enter the 6-digit code from your email to finish signing up.",
+    "resendHint": "A new code was sent to your email.",
+    "forgotPasswordTitle": "Forgot password?",
+    "forgotPasswordSubtitle": "Enter your email and we'll send you a password reset code.",
+    "sendResetCode": "Send reset code",
+    "sendingResetCode": "Sending reset code...",
+    "rememberedPassword": "Remembered your password?",
+    "resetPasswordTitle": "Reset password",
+    "resetPasswordSubtitle": "Enter the code from your email and set a new password.",
+    "verificationCode": "Verification code",
+    "newPassword": "New password",
+    "currentPasswordRequired": "Current password is required.",
+    "resetPasswordAction": "Reset password",
+    "resettingPassword": "Resetting password...",
+    "backToSignInHint": "Back to sign in?",
+    "createAccountTitle": "Create your account",
+    "createAccountSubtitle": "Sign up with your email. We'll send a code to confirm it.",
+    "creatingAccount": "Creating account...",
+    "signingIn": "Signing in...",
+    "sendLoginCode": "Send login code",
+    "sendingCode": "Sending code...",
+    "forgotPassword": "Forgot password?",
+    "sendingResetLink": "Sending reset link...",
+    "resetPasswordSent": "If this email exists, a password reset link has been sent.",
+    "verifying": "Verifying...",
+    "passwordsDontMatch": "Passwords do not match.",
+    "enterOtp": "Enter the 6-digit code.",
+    "emailAndPasswordRequired": "Email and password are required.",
+    "emailAndCodeRequired": "Email and code are required.",
+    "invalidEmail": "Enter a valid email address.",
+    "passwordTooShort": "Password must be at least 8 characters.",
+    "passwordNeedsLetterAndNumber": "Password must include at least one letter and one number."
+  },
+  "profile": {
+    "bioGuest": "Sign in or create an account.",
+    "cancel": "Cancel",
+    "language": "Language",
+    "english": "English",
+    "chinese": "Chinese",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "tabs": {
+    "home": "Home",
+    "me": "Me",
+    "showcase": "Showcase",
+    "component": "Components"
+  },
+  "home": {
+    "hero": {
+      "title": "Expo Starter",
+      "subtitle": "An Expo starter that opens like a finished app — onboarding, sign-in and paywall screens, theming, and a component gallery."
+    },
+    "whatsInside": "What's inside",
+    "seeAll": "See all",
+    "demos": {
+      "title": "Try the live demos"
+    },
+    "action": {
+      "components": {
+        "title": "Components",
+        "subtitle": "Browse the UI library"
+      },
+      "signIn": {
+        "title": "Sign-in screens",
+        "subtitle": "Password and email code"
+      },
+      "paywall": {
+        "title": "Paywall",
+        "subtitle": "Plans and restore"
+      }
+    }
+  },
+  "menu": {
+    "discover": "Discover",
+    "account": "Account"
+  },
+  "settings": {
+    "title": "Settings"
+  },
+  "biometric": {
+    "title": "Biometric unlock",
+    "hint": "Require Face ID or fingerprint when reopening the app.",
+    "enable": "Enable biometric unlock",
+    "disable": "Disable biometric unlock",
+    "enabled": "Biometric unlock is on.",
+    "disabled": "Biometric unlock is off.",
+    "unavailable": "This device does not support biometric authentication.",
+    "notEnrolled": "Set up Face ID or fingerprint in your device settings first.",
+    "enablePrompt": "Authenticate to enable biometric unlock",
+    "unlockPrompt": "Unlock the app",
+    "lockedTitle": "App locked",
+    "lockedSubtitle": "Authenticate with Face ID or fingerprint to continue.",
+    "unlockAction": "Unlock"
+  },
+  "paywall": {
+    "title": "Go Pro",
+    "subtitle": "Unlock every premium feature.",
+    "features": {
+      "unlimited": "Unlimited everything",
+      "priority": "Priority support",
+      "noAds": "No ads, ever",
+      "future": "All future updates included"
+    },
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "lifetime": "Lifetime",
+    "perMonth": "/ month",
+    "perYear": "/ year",
+    "oneTime": "one-time",
+    "bestValue": "Best value",
+    "popular": "Most popular",
+    "savings": "Save {{percent}}%",
+    "freeTrialBadge": "Includes {{days}}-day free trial",
+    "continue": "Continue",
+    "purchasing": "Processing...",
+    "restore": "Restore purchases",
+    "restoring": "Restoring...",
+    "redeemCode": "Redeem code",
+    "redeemHint": "Have a promo or referral code?",
+    "redeemUnsupported": "Open Google Play to redeem your code.",
+    "termsHint": "Subscriptions auto-renew until cancelled. Cancel anytime in your account settings.",
+    "subscriptionDisclosure": "Subscriptions auto-renew until cancelled. Payment is charged to your App Store account and renewal happens within 24 hours before the current period ends. Manage or cancel in account settings.",
+    "oneTimeDisclosure": "Lifetime is a one-time purchase for this account.",
+    "loadError": "Couldn't load subscription options.",
+    "tryAgain": "Try again",
+    "unavailable": "In-app purchases are not configured for this build.",
+    "alreadyPro": "You're already Pro. Thanks for your support!",
+    "signInRequired": "Sign in before purchasing so Pro is attached to your account.",
+    "purchaseCancelled": "Purchase cancelled."
+  },
+  "subscription": {
+    "sectionTitle": "Subscription",
+    "upgrade": "Upgrade to Pro"
+  },
+  "onboarding": {
+    "title": "Expo Starter",
+    "skip": "Skip",
+    "next": "Next",
+    "getStarted": "Get started",
+    "slide": "Slide",
+    "slideOneTitle": "Launch from a real app foundation",
+    "slideOneBody": "Onboarding, sign-in and paywall screens, theming, and a component gallery are already wired together.",
+    "slideTwoTitle": "Account screens, ready for your backend",
+    "slideTwoBody": "Sign-in, sign-up, email verification, and password reset come with validation and a device-level app lock.",
+    "slideThreeTitle": "Grow with referrals and offers",
+    "slideThreeBody": "Invite links, the share sheet, and a well-timed rating prompt help the app grow.",
+    "slideFourTitle": "Ask for access at the right moment",
+    "slideFourBody": "Prime users before photos, camera, and tracking prompts so native dialogs have context."
+  },
+  "permissions": {
+    "title": "Permissions",
+    "heading": "Choose what to enable",
+    "subtitle": "Each card explains the benefit before the native permission dialog appears.",
+    "photosTitle": "Photos",
+    "photosBody": "Let users choose images from their photo library when a feature needs them.",
+    "cameraTitle": "Camera",
+    "cameraBody": "Capture photos directly from camera-based product flows.",
+    "trackingTitle": "Tracking",
+    "trackingBody": "Measure referral campaigns and attribution when the user allows it.",
+    "status": "Status",
+    "enable": "Enable",
+    "enabled": "Enabled",
+    "continue": "Continue",
+    "granted": "Permission enabled.",
+    "denied": "Permission was not enabled."
+  },
+  "refer": {
+    "title": "Refer a friend",
+    "heading": "Invite a friend",
+    "subtitle": "Share a link with friends to grow the community.",
+    "shareInvite": "Share invite",
+    "shareError": "Unable to open the share sheet."
+  },
+  "legal": {
+    "title": "Legal",
+    "subtitle": "Terms, privacy, and license details for this app.",
+    "lastUpdated": "Last updated {{version}}",
+    "acceptedOn": "You accepted version {{version}}.",
+    "viewOnline": "View latest online",
+    "read": "Read",
+    "accept": "I agree and continue",
+    "consentTitle": "Before you continue",
+    "consentSubtitle": "Please review and accept the terms below to use this app. You can re-read them anytime under Legal on the Me tab.",
+    "consentDisclaimer": "By tapping 'I agree and continue' you confirm that you have read and accept the Terms of Service, Privacy Policy, and End User License Agreement.",
+    "terms": {
+      "title": "Terms of Service",
+      "intro": "These terms govern your use of the app. Please read them before continuing.",
+      "s1Title": "1. Using the app",
+      "s1Body": "You may use the app for lawful, personal purposes. Do not misuse it, try to disrupt it, or use it to harm others.",
+      "s2Title": "2. Purchases",
+      "s2Body": "The app does not sell anything. The paywall is a preview of the screen, and no payment is taken. If paid features are added later, the App Store or Google Play bills them under its own terms and handles refunds.",
+      "s3Title": "3. Your information",
+      "s3Body": "Nothing you enter is uploaded. Your preferences stay on this device, as described in the Privacy Policy.",
+      "s4Title": "4. Changes to these terms",
+      "s4Body": "We may update these terms when the app changes. When we do, the app asks you to accept the new version before you continue.",
+      "s5Title": "5. Disclaimers",
+      "s5Body": "The app is provided as-is. To the maximum extent permitted by law, we disclaim all warranties and limit our liability for any indirect or consequential damages."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "This policy explains what data the app handles and where it is kept.",
+      "s1Title": "1. What we collect",
+      "s1Body": "Nothing. The app has no accounts, analytics, or crash reporting, and it does not send your data to any server. The sign-in and sign-up forms only check what you type; they do not submit it anywhere.",
+      "s2Title": "2. What stays on your device",
+      "s2Body": "Your theme, language, and app lock setting, whether you finished onboarding, the version of these terms you accepted, and when the app last asked you for a rating. They are saved on this device only.",
+      "s3Title": "3. Permissions",
+      "s3Body": "Camera, photos, and tracking are requested only when you tap them on the Permissions screen. Face ID or fingerprint is checked by the system, and the app never sees your biometric data. The app does not track you.",
+      "s4Title": "4. Your choices",
+      "s4Body": "Deleting the app removes everything it saved. You can change permissions at any time in your device settings.",
+      "s5Title": "5. Contact",
+      "s5Body": "Questions about privacy can be sent to the support email listed on the app's store page."
+    },
+    "eula": {
+      "title": "End User License Agreement",
+      "intro": "This license sets the conditions under which you may install and use the app.",
+      "s1Title": "1. License grant",
+      "s1Body": "We grant you a non-transferable, non-exclusive license to use the app on devices you own or control, subject to the platform's usage rules.",
+      "s2Title": "2. Restrictions",
+      "s2Body": "You may not reverse engineer, redistribute, or sublicense the app, except to the extent permitted by applicable law.",
+      "s3Title": "3. Updates",
+      "s3Body": "Updates may be delivered automatically. New versions can change features, security boundaries, or platform requirements.",
+      "s4Title": "4. Termination",
+      "s4Body": "This license terminates automatically if you breach its terms. On termination you must stop using the app and delete it from your devices."
+    }
+  },
+  "capabilityCategory": {
+    "foundation": "Foundation",
+    "authentication": "Authentication & account",
+    "commerce": "Commerce",
+    "growth": "Growth",
+    "operations": "Operations"
+  },
+  "capabilityStatus": {
+    "liveDemo": "Live demo",
+    "deviceOnly": "Device only",
+    "uiOnly": "UI only"
+  },
+  "showcase": {
+    "theming": {
+      "title": "Theme & language",
+      "summary": "Live light and dark themes plus in-session language switching."
+    },
+    "onboarding": {
+      "title": "Onboarding",
+      "summary": "A gated multi-slide first-run flow you can replay anytime."
+    },
+    "haptics": {
+      "title": "Haptics",
+      "summary": "System feedback generators wrapped behind one helper.",
+      "impactSection": "Impact",
+      "light": "Light",
+      "medium": "Medium",
+      "heavy": "Heavy",
+      "notificationSection": "Notification",
+      "success": "Success",
+      "warning": "Warning",
+      "error": "Error",
+      "selectionSection": "Selection",
+      "selectionButton": "Selection changed",
+      "note": "Haptics are felt on a physical device. The simulator shows a confirmation instead.",
+      "fired": "Haptic triggered"
+    },
+    "auth": {
+      "title": "Sign-in & sign-up screens",
+      "summary": "Password and email-code sign-in, sign-up, verification, and password reset with form validation."
+    },
+    "biometrics": {
+      "title": "Biometric lock",
+      "summary": "A Face ID and Touch ID app lock that covers every screen."
+    },
+    "paywall": {
+      "title": "Subscription paywall",
+      "summary": "Monthly, yearly, and lifetime plan cards with restore and legal links."
+    },
+    "deepLinks": {
+      "title": "Deep links",
+      "summary": "Resolve custom-scheme and Universal Link URLs through an allow-list.",
+      "note": "Tap a destination to route the app live — the same path a custom-scheme or Universal Link opens.",
+      "resolvedLabel": "Last resolved"
+    },
+    "referrals": {
+      "title": "Referral sharing",
+      "summary": "Share an invite link through the system share sheet."
+    },
+    "rating": {
+      "title": "App rating",
+      "summary": "Request an App Store review at the right moment.",
+      "rulesTitle": "Smart-trigger rules",
+      "rule1": "At least 3 actions since the last prompt",
+      "rule2": "Not already prompted on this app version",
+      "rule3": "At least 90 days since the last prompt",
+      "requestNow": "Request review now",
+      "requested": "Review prompt requested",
+      "note": "The OS shows the prompt at most a few times a year and may suppress it.",
+      "unavailable": "Review prompt isn't available in this build."
+    },
+    "permissions": {
+      "title": "Permissions & tracking",
+      "summary": "Prime photos, camera, and the tracking prompt."
+    },
+    "theme": {
+      "appearanceTitle": "Appearance",
+      "languageTitle": "Language",
+      "previewTitle": "Live preview",
+      "sampleBody": "Surfaces, text, and tints follow the selected appearance instantly.",
+      "light": "Light",
+      "dark": "Dark"
+    }
+  },
+  "uiDemo": {
+    "notice": "This is a UI demo. Connect your own backend to make it work."
+  },
+  "pro": {
+    "title": "Available in Pro",
+    "description": "These need a backend or a release pipeline, so they ship in SoarStarter Pro instead of this open-source starter.",
+    "badge": "Pro",
+    "action": "Learn more about SoarStarter Pro",
+    "items": {
+      "email-auth": {
+        "title": "Email and code sign-in",
+        "summary": "Supabase email and password, one-time codes, email verification, and password reset, with sessions kept in secure storage."
+      },
+      "social-sign-in": {
+        "title": "Apple and Google sign-in",
+        "summary": "Native Sign in with Apple and Google Sign-In, exchanged for a Supabase session."
+      },
+      "account": {
+        "title": "Profile and account security",
+        "summary": "Profile editing, avatar upload, changing email or password, signing out other sessions, and account deletion."
+      },
+      "synced-data": {
+        "title": "Synced data example",
+        "summary": "A Supabase-backed todo list with offline-first caching through TanStack Query."
+      },
+      "file-uploads": {
+        "title": "File uploads",
+        "summary": "Pick photos or documents and upload them to storage, with progress and a list of past uploads."
+      },
+      "in-app-purchases": {
+        "title": "In-app purchases",
+        "summary": "RevenueCat subscriptions and a lifetime purchase behind these paywall screens, with restore."
+      },
+      "feature-gates": {
+        "title": "Entitlements and feature gates",
+        "summary": "Entitlement state from purchases, plus reusable gates that lock screens until a user upgrades."
+      },
+      "subscription-management": {
+        "title": "Subscription management and offer codes",
+        "summary": "Show the active plan and renewal date, open the store's management page, and redeem offer codes."
+      },
+      "push-notifications": {
+        "title": "Push notifications",
+        "summary": "Permission flow, Expo push token registration, and handling of notifications that open the app."
+      },
+      "unified-backend": {
+        "title": "Unified backend",
+        "summary": "Switch to the SoarStarter API to share accounts, data, and billing with the SoarStarter web app."
+      },
+      "update-gate": {
+        "title": "Required and optional updates",
+        "summary": "A remote minimum-version config that blocks outdated builds or suggests an update."
+      },
+      "release-pipeline": {
+        "title": "EAS builds and OTA updates",
+        "summary": "Development, preview, and production variants with EAS Build profiles and over-the-air updates."
+      },
+      "error-reporting": {
+        "title": "Crash and error reporting",
+        "summary": "Sentry for native and JavaScript errors, with source maps uploaded at build time."
+      },
+      "analytics": {
+        "title": "Product analytics",
+        "summary": "PostHog events and screen tracking, wired into sign-in, onboarding, and purchases."
+      }
+    }
+  }
+}

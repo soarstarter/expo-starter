@@ -1,0 +1,404 @@
+{
+  "common": {
+    "signIn": "登录",
+    "createAccount": "创建账号",
+    "verifyEmail": "验证邮箱",
+    "resendCode": "重新发送验证码",
+    "done": "完成",
+    "offline": "网络已断开，请检查网络连接。",
+    "retry": "重试",
+    "loading": "加载中...",
+    "theme": "主题"
+  },
+  "auth": {
+    "welcomeBack": "欢迎回来",
+    "signInSubtitle": "登录后继续。",
+    "email": "邮箱",
+    "password": "密码",
+    "code": "验证码",
+    "name": "姓名",
+    "phone": "手机号",
+    "confirmPassword": "确认密码",
+    "emailCode": "邮箱验证码",
+    "newHere": "新用户？",
+    "alreadyHaveAccount": "已有账号？",
+    "otpHint": "输入邮件中的 6 位验证码完成注册。",
+    "resendHint": "已向你的邮箱发送新的验证码。",
+    "forgotPasswordTitle": "忘记密码？",
+    "forgotPasswordSubtitle": "输入你的邮箱，我们会发送密码重置验证码。",
+    "sendResetCode": "发送重置码",
+    "sendingResetCode": "正在发送重置码...",
+    "rememberedPassword": "想起密码了？",
+    "resetPasswordTitle": "重置密码",
+    "resetPasswordSubtitle": "输入邮箱验证码并设置新密码。",
+    "verificationCode": "验证码",
+    "newPassword": "新密码",
+    "currentPasswordRequired": "请输入当前密码。",
+    "resetPasswordAction": "重置密码",
+    "resettingPassword": "正在重置密码...",
+    "backToSignInHint": "返回登录？",
+    "createAccountTitle": "创建你的账号",
+    "createAccountSubtitle": "用邮箱注册，我们会发送验证码确认邮箱。",
+    "creatingAccount": "正在创建账号...",
+    "signingIn": "正在登录...",
+    "sendLoginCode": "发送登录验证码",
+    "sendingCode": "正在发送验证码...",
+    "forgotPassword": "忘记密码？",
+    "sendingResetLink": "正在发送重置链接...",
+    "resetPasswordSent": "如果该邮箱已注册，我们已发送密码重置链接。",
+    "verifying": "正在验证...",
+    "passwordsDontMatch": "两次输入的密码不一致。",
+    "enterOtp": "请输入 6 位验证码。",
+    "emailAndPasswordRequired": "请输入邮箱和密码。",
+    "emailAndCodeRequired": "请输入邮箱和验证码。",
+    "invalidEmail": "请输入有效的邮箱地址。",
+    "passwordTooShort": "密码至少需要 8 个字符。",
+    "passwordNeedsLetterAndNumber": "密码必须同时包含字母和数字。"
+  },
+  "profile": {
+    "bioGuest": "登录或创建账号。",
+    "cancel": "取消",
+    "language": "语言",
+    "english": "英语",
+    "chinese": "中文",
+    "theme": "主题",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "跟随系统"
+  },
+  "tabs": {
+    "home": "首页",
+    "me": "我的",
+    "showcase": "展示",
+    "component": "组件"
+  },
+  "home": {
+    "hero": {
+      "title": "Expo Starter",
+      "subtitle": "打开就像成品的 Expo 起步模板：引导流程、登录注册与付费墙界面、主题切换、组件画廊。"
+    },
+    "whatsInside": "模板包含",
+    "seeAll": "查看全部",
+    "demos": {
+      "title": "体验在线演示"
+    },
+    "action": {
+      "components": {
+        "title": "组件",
+        "subtitle": "浏览 UI 组件库"
+      },
+      "signIn": {
+        "title": "登录注册界面",
+        "subtitle": "密码与邮箱验证码"
+      },
+      "paywall": {
+        "title": "付费墙",
+        "subtitle": "套餐与恢复购买"
+      }
+    }
+  },
+  "menu": {
+    "discover": "发现",
+    "account": "账号"
+  },
+  "settings": {
+    "title": "设置"
+  },
+  "biometric": {
+    "title": "生物识别解锁",
+    "hint": "重新打开应用时要求面容 ID 或指纹验证。",
+    "enable": "开启生物识别解锁",
+    "disable": "关闭生物识别解锁",
+    "enabled": "已开启生物识别解锁。",
+    "disabled": "已关闭生物识别解锁。",
+    "unavailable": "当前设备不支持生物识别。",
+    "notEnrolled": "请先在系统设置中录入面容 ID 或指纹。",
+    "enablePrompt": "验证身份以开启生物识别解锁",
+    "unlockPrompt": "解锁应用",
+    "lockedTitle": "应用已锁定",
+    "lockedSubtitle": "请使用面容 ID 或指纹验证身份。",
+    "unlockAction": "解锁"
+  },
+  "paywall": {
+    "title": "升级 Pro",
+    "subtitle": "解锁所有高级功能。",
+    "features": {
+      "unlimited": "无限制使用",
+      "priority": "优先支持",
+      "noAds": "永不展示广告",
+      "future": "包含未来所有更新"
+    },
+    "monthly": "月度",
+    "yearly": "年度",
+    "lifetime": "永久",
+    "perMonth": "/ 月",
+    "perYear": "/ 年",
+    "oneTime": "一次性",
+    "bestValue": "最划算",
+    "popular": "最受欢迎",
+    "savings": "省 {{percent}}%",
+    "freeTrialBadge": "包含 {{days}} 天免费试用",
+    "continue": "继续",
+    "purchasing": "处理中...",
+    "restore": "恢复购买",
+    "restoring": "恢复中...",
+    "redeemCode": "兑换码",
+    "redeemHint": "有优惠码或推荐码？",
+    "redeemUnsupported": "请在 Google Play 中兑换。",
+    "termsHint": "订阅会自动续费，可随时在账户设置中取消。",
+    "subscriptionDisclosure": "订阅会自动续费，直到取消为止。费用将通过你的 App Store 账号收取，并会在当前周期结束前 24 小时内续订。可在账号设置中管理或取消。",
+    "oneTimeDisclosure": "永久方案是绑定此账号的一次性购买。",
+    "loadError": "无法加载订阅选项。",
+    "tryAgain": "重试",
+    "unavailable": "此构建未配置内购。",
+    "alreadyPro": "你已是 Pro 用户，感谢支持！",
+    "signInRequired": "请先登录再购买，以便将 Pro 绑定到你的账号。",
+    "purchaseCancelled": "已取消购买。"
+  },
+  "subscription": {
+    "sectionTitle": "订阅",
+    "upgrade": "升级到 Pro"
+  },
+  "onboarding": {
+    "title": "Expo Starter",
+    "skip": "跳过",
+    "next": "下一步",
+    "getStarted": "开始使用",
+    "slide": "页面",
+    "slideOneTitle": "从真实应用基础开始",
+    "slideOneBody": "引导流程、登录注册与付费墙界面、主题切换和组件画廊已经组合完成。",
+    "slideTwoTitle": "账号界面，接上你的后端即可",
+    "slideTwoBody": "登录、注册、邮箱验证与找回密码都带表单校验，另有设备级的应用锁。",
+    "slideThreeTitle": "通过推荐和优惠增长",
+    "slideThreeBody": "邀请链接、系统分享面板和适时的评分请求帮助应用增长。",
+    "slideFourTitle": "在合适时机请求权限",
+    "slideFourBody": "在照片、相机和跟踪权限弹窗前先说明价值。"
+  },
+  "permissions": {
+    "title": "权限",
+    "heading": "选择要启用的权限",
+    "subtitle": "每张卡片都会在系统权限弹窗前说明用途。",
+    "photosTitle": "照片",
+    "photosBody": "在功能需要时，允许用户从相册中选择图片。",
+    "cameraTitle": "相机",
+    "cameraBody": "在需要拍摄的产品流程中直接调用相机。",
+    "trackingTitle": "跟踪",
+    "trackingBody": "在用户允许时衡量推荐活动和归因效果。",
+    "status": "状态",
+    "enable": "启用",
+    "enabled": "已启用",
+    "continue": "继续",
+    "granted": "权限已启用。",
+    "denied": "权限未启用。"
+  },
+  "refer": {
+    "title": "推荐好友",
+    "heading": "邀请好友",
+    "subtitle": "分享链接，让更多人加入社区。",
+    "shareInvite": "分享邀请",
+    "shareError": "无法打开分享面板。"
+  },
+  "legal": {
+    "title": "法律条款",
+    "subtitle": "应用使用条款、隐私政策与许可协议。",
+    "lastUpdated": "最近更新 {{version}}",
+    "acceptedOn": "你已接受 {{version}} 版本。",
+    "viewOnline": "查看在线最新版",
+    "read": "阅读",
+    "accept": "我同意并继续",
+    "consentTitle": "继续前请确认",
+    "consentSubtitle": "请阅读并接受以下条款后继续使用本应用。你可随时在「我」中的「法律条款」重新查看。",
+    "consentDisclaimer": "点击「我同意并继续」即表示你已阅读并接受《服务条款》、《隐私政策》和《最终用户许可协议》。",
+    "terms": {
+      "title": "服务条款",
+      "intro": "本条款适用于你对本应用的使用。请阅读后再继续。",
+      "s1Title": "1. 应用使用",
+      "s1Body": "你可在合法的个人用途内使用本应用，不得滥用、干扰应用运行，或利用本应用伤害他人。",
+      "s2Title": "2. 购买",
+      "s2Body": "本应用不出售任何内容。付费墙只是界面预览，不会收取任何费用。如果以后加入付费功能，由 App Store 或 Google Play 按其条款计费并处理退款。",
+      "s3Title": "3. 你的信息",
+      "s3Body": "你输入的内容不会上传。你的偏好设置只保存在本设备上，详见隐私政策。",
+      "s4Title": "4. 条款变更",
+      "s4Body": "应用变化时我们可能更新本条款。更新后，应用会请你先接受新版本再继续使用。",
+      "s5Title": "5. 免责声明",
+      "s5Body": "本应用按现状提供。在适用法律允许的最大范围内，我们不提供任何明示或默示的担保，并对任何间接或衍生损害不承担责任。"
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "intro": "本政策说明应用会处理哪些数据，以及这些数据保存在哪里。",
+      "s1Title": "1. 收集内容",
+      "s1Body": "不收集任何数据。本应用没有账号、分析和崩溃上报，也不会把你的数据发送到任何服务器。登录和注册表单只校验你输入的内容，不会提交到任何地方。",
+      "s2Title": "2. 保存在设备上的内容",
+      "s2Body": "你的主题、语言和应用锁设置，是否完成引导，你接受的条款版本，以及应用上次请你评分的时间。这些只保存在本设备上。",
+      "s3Title": "3. 权限",
+      "s3Body": "相机、相册和跟踪权限只在你于「权限」页点按时才会申请。面容或指纹由系统验证，应用不会接触你的生物识别数据。应用不会跟踪你。",
+      "s4Title": "4. 你的选择",
+      "s4Body": "删除应用即可清除它保存的全部内容。你可以随时在系统设置中修改权限。",
+      "s5Title": "5. 联系方式",
+      "s5Body": "如有隐私相关问题，可通过应用商店页面上的支持邮箱与我们联系。"
+    },
+    "eula": {
+      "title": "最终用户许可协议",
+      "intro": "本许可规定了你安装与使用本应用的条件。",
+      "s1Title": "1. 许可授予",
+      "s1Body": "在符合平台使用规则的前提下，我们授予你在自有或受控设备上使用本应用的非独占、不可转让许可。",
+      "s2Title": "2. 限制",
+      "s2Body": "除适用法律允许的范围外，你不得逆向工程、再分发或再许可本应用。",
+      "s3Title": "3. 更新",
+      "s3Body": "更新可能自动下发。新版本可能更改功能、安全边界或平台要求。",
+      "s4Title": "4. 终止",
+      "s4Body": "若你违反本许可，许可将自动终止。终止后须停止使用应用并从设备中删除。"
+    }
+  },
+  "capabilityCategory": {
+    "foundation": "基础",
+    "authentication": "身份认证与账户",
+    "commerce": "商业化",
+    "growth": "增长",
+    "operations": "运维"
+  },
+  "capabilityStatus": {
+    "liveDemo": "可体验",
+    "deviceOnly": "仅真机",
+    "uiOnly": "仅界面"
+  },
+  "showcase": {
+    "theming": {
+      "title": "主题与语言",
+      "summary": "实时切换浅色/深色主题，并支持应用内语言切换。"
+    },
+    "onboarding": {
+      "title": "引导流程",
+      "summary": "可随时重播的多页首次启动引导流程。"
+    },
+    "haptics": {
+      "title": "触觉反馈",
+      "summary": "封装系统反馈发生器的统一助手。",
+      "impactSection": "撞击反馈",
+      "light": "轻",
+      "medium": "中",
+      "heavy": "重",
+      "notificationSection": "通知反馈",
+      "success": "成功",
+      "warning": "警告",
+      "error": "错误",
+      "selectionSection": "选择反馈",
+      "selectionButton": "选择已改变",
+      "note": "震动反馈仅在真机上可感受到；模拟器会改为显示确认提示。",
+      "fired": "已触发震动反馈"
+    },
+    "auth": {
+      "title": "登录与注册界面",
+      "summary": "密码与邮箱验证码登录、注册、邮箱验证、找回密码，带表单校验。"
+    },
+    "biometrics": {
+      "title": "生物识别锁",
+      "summary": "覆盖所有界面的 Face ID 与 Touch ID 应用锁。"
+    },
+    "paywall": {
+      "title": "订阅付费墙",
+      "summary": "月度、年度与永久套餐卡片，带恢复购买与法律链接。"
+    },
+    "deepLinks": {
+      "title": "深度链接",
+      "summary": "通过白名单解析自定义协议与 Universal Link 链接。",
+      "note": "点击目标可实时跳转应用——与自定义协议或通用链接打开的路径相同。",
+      "resolvedLabel": "最近解析"
+    },
+    "referrals": {
+      "title": "推荐分享",
+      "summary": "通过系统分享面板分享邀请链接。"
+    },
+    "rating": {
+      "title": "应用评分",
+      "summary": "在合适的时机请求 App Store 评分。",
+      "rulesTitle": "智能触发规则",
+      "rule1": "距上次提示至少 3 次操作",
+      "rule2": "当前版本尚未提示过",
+      "rule3": "距上次提示至少 90 天",
+      "requestNow": "立即请求评价",
+      "requested": "已请求评价弹窗",
+      "note": "系统每年最多显示数次评价请求，且可能不会显示。",
+      "unavailable": "当前构建无法显示评价弹窗。"
+    },
+    "permissions": {
+      "title": "权限与跟踪",
+      "summary": "引导照片、相机与跟踪授权。"
+    },
+    "theme": {
+      "appearanceTitle": "外观",
+      "languageTitle": "语言",
+      "previewTitle": "实时预览",
+      "sampleBody": "界面、文字与色调会即时跟随所选外观。",
+      "light": "浅色",
+      "dark": "深色"
+    }
+  },
+  "uiDemo": {
+    "notice": "这是界面演示，请接入你自己的后端。"
+  },
+  "pro": {
+    "title": "Pro 版提供",
+    "description": "这些能力需要后端或发布流水线，所以放在 SoarStarter Pro 里，不在这个开源模板中。",
+    "badge": "Pro",
+    "action": "了解 SoarStarter Pro",
+    "items": {
+      "email-auth": {
+        "title": "邮箱与验证码登录",
+        "summary": "Supabase 邮箱密码登录、一次性验证码、邮箱验证和找回密码，会话保存在安全存储里。"
+      },
+      "social-sign-in": {
+        "title": "Apple 与 Google 登录",
+        "summary": "原生的通过 Apple 登录和 Google 登录，换取 Supabase 会话。"
+      },
+      "account": {
+        "title": "资料与账号安全",
+        "summary": "编辑资料、上传头像、修改邮箱或密码、退出其他设备，以及删除账号。"
+      },
+      "synced-data": {
+        "title": "同步数据示例",
+        "summary": "基于 Supabase 的待办列表，用 TanStack Query 做离线优先的缓存。"
+      },
+      "file-uploads": {
+        "title": "文件上传",
+        "summary": "选择照片或文件上传到存储，显示进度和上传记录。"
+      },
+      "in-app-purchases": {
+        "title": "应用内购买",
+        "summary": "在这套 Paywall 界面背后接入 RevenueCat 订阅和买断，支持恢复购买。"
+      },
+      "feature-gates": {
+        "title": "权益与功能门",
+        "summary": "根据购买结果得到的权益状态，以及可复用的功能门：升级前锁住对应页面。"
+      },
+      "subscription-management": {
+        "title": "订阅管理与兑换码",
+        "summary": "显示当前套餐和续费日期，打开商店的订阅管理页，兑换优惠码。"
+      },
+      "push-notifications": {
+        "title": "推送通知",
+        "summary": "权限申请、Expo 推送令牌注册，以及点击通知打开应用的处理。"
+      },
+      "unified-backend": {
+        "title": "统一后端",
+        "summary": "切换到 SoarStarter API，与 SoarStarter Web 应用共用账号、数据和收款。"
+      },
+      "update-gate": {
+        "title": "强制更新与建议更新",
+        "summary": "读取远程的最低版本配置，过旧的版本禁止使用或提示更新。"
+      },
+      "release-pipeline": {
+        "title": "EAS 构建与 OTA 更新",
+        "summary": "开发、预览、正式三套变体，配好 EAS Build 配置和空中更新。"
+      },
+      "error-reporting": {
+        "title": "崩溃与错误上报",
+        "summary": "用 Sentry 收集原生和 JavaScript 错误，构建时上传 source map。"
+      },
+      "analytics": {
+        "title": "产品分析",
+        "summary": "PostHog 事件和页面追踪，已接入登录、引导和购买流程。"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+node_modules/
+.expo/
+dist/
+web-build/
+ios/
+android/
+.next/
+coverage/
+
+# Generated files
+expo-env.d.ts
+pnpm-lock.yaml
+
+# Vendored agent skill packs
+.agents/
+.claude/
+
+# Generated UI primitives from react-native-reusables
+components/ui/

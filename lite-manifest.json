@@ -1,7 +1,7 @@
 {
   "$schema-note": "Read by scripts/check-lite.mjs (pnpm check:lite) and by the sync skill in the commercial repository. proPaths: never allowed here (a trailing / covers a directory, * matches within one path segment). sharedFiles: exist in both editions but differ, so syncs must merge them by hand. liteOnlyFiles: written for this edition and never overwritten by a sync, even where the commercial repository has a file at the same path (README.md). generatedFiles: differ in both editions but are never patched or copied; a sync regenerates them (pnpm-lock.yaml with pnpm install). Every other file is identical in both editions at source.lastSyncedCommit.",
   "source": {
-    "lastSyncedCommit": "b1fef2cc6c4f708c4ee4c3be39ef7f4ed398f553",
+    "lastSyncedCommit": "a83719c7aaa1d503b59b974fac7a61fea578d8b9",
     "lastSyncedAt": "2026-11-25"
   },
   "proPaths": [
@@ -53,6 +53,8 @@
     "SYNC_PLAN.md",
     ".agents/skills/supabase-postgres-best-practices/",
     ".claude/skills/supabase-postgres-best-practices/",
+    ".agents/skills/sync-lite/",
+    ".claude/skills/sync-lite",
     "components/animated-splash.tsx",
     "assets/lottie/",
     "jest.setup.ts",

@@ -29,6 +29,16 @@ function normalizePermissionStatus(status?: string | null) {
   return status;
 }
 
+const STATUS_LABEL_KEYS: Record<string, string> = {
+  granted: 'permissions.statusGranted',
+  denied: 'permissions.statusDenied',
+  undetermined: 'permissions.statusUndetermined',
+};
+
+function permissionStatusLabelKey(status: string) {
+  return STATUS_LABEL_KEYS[status] ?? 'permissions.statusUnknown';
+}
+
 export default function PermissionsScreen() {
   const { t } = useI18n();
   const { showToast } = useToast();
@@ -148,7 +158,7 @@ export default function PermissionsScreen() {
                 <Text className="text-[17px] font-semibold text-foreground">{item.title}</Text>
                 <Text className="text-[14px] leading-5 text-ios-label-secondary">{item.body}</Text>
                 <Text className="mt-2 text-xs uppercase text-ios-label-secondary">
-                  {t('permissions.status')}: {item.status}
+                  {t('permissions.status')}: {t(permissionStatusLabelKey(item.status))}
                 </Text>
               </View>
             </View>
